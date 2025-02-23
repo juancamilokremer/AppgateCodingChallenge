@@ -27,3 +27,14 @@ La aplicación cuenta con Swager por medio de su interfaz puede ejecutarse los s
 
 ## Postman:
 Por medio de la aplicación postman también es posible ejecutar los servicios expuestos.
+
+## Diagrama de capas de la aplicación:
+El sistema sigue una arquitectura típica de tres capas:
+
+* Controlador (Controller): Expone los endpoints REST.
+* Servicio (Service): Implementa la lógica de negocio.
+* Modelo (Model): Contiene las clases de dominio.
+* Repository: Como no existe persistencia a datos  no se incluyo, pero en caso de que fuera necesario acceder a una base de datos las clasea pertinentes se encontraría aquí
+
+![image](https://github.com/user-attachments/assets/8945a42b-fbda-4657-9808-bb5506fecaeb)
+
